@@ -39,6 +39,8 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
 }
 
 
@@ -46,7 +48,6 @@ body {
 .header {
     padding-top: 20px;
     background-color: orange;
-    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 20px;
     color: white;
@@ -187,11 +188,36 @@ body {
     opacity: 1;
 }
 
-.footer-info {
-    font-family: 'Roboto', sans-serif;
-    color: white;
+.footer {
     background-color: black;
+    color: white;
 }
+
+.hd {
+    align-items: right;
+}
+
+.twitter {
+width: 25px;
+height: 25px;
+}
+
+.instagram {
+    width: 25px;
+    height: 25px;
+}
+
+.facebook {
+    width: 25px;
+    height: 25px;
+}
+
+.youtube {
+    width: 25px;
+    height: 25px;
+}
+
+
 
     
 
