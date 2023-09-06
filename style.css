@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:opsz,wght@9..40,100;9..40,700&family=Fredoka:wght@700&family=Inconsolata:wght@300;600&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
 
+/*
 
+font-family: 'Anton', sans-serif;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Fredoka', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
 
 * {
 	margin: 0;
@@ -25,6 +35,41 @@ figure > img {
 	margin: 0 auto;
 }
 
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.header {
+    padding-top: 20px;
+    background-color: orange;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.logo {
+    align-items: center;
+    height: 50px;
+    width:220px
+}
+
+.cuore {
+    width: 50px;
+    height: 50px;
+}
+
+.persona {
+    width: 50px;
+    height: 50px;
+}
+
+
+   
 
 .red-cost {
     color: red;
@@ -35,6 +80,7 @@ figure > img {
 .row {
 	display: flex;
 	flex-wrap: wrap;
+    
 }
 
 .col-12 {
@@ -140,6 +186,14 @@ figure > img {
 .image2:hover {
     opacity: 1;
 }
+
+.footer-info {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+    
 
 
 
