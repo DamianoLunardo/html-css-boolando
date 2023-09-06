@@ -43,8 +43,6 @@ body {
     font-size: 12px;
 }
 
-
-
 .header {
     padding-top: 20px;
     background-color: orange;
@@ -56,27 +54,22 @@ body {
 .logo1 {
     align-items: center;
     height: 50px;
-    width:220px
+    width:210px
 }
 
-.cuore {
-    width: 50px;
-    height: 50px;
+.heart {
+    width: 30px;
+    height: 30px;
 }
 
-.persona {
-    width: 50px;
-    height: 50px;
+.person {
+    width: 30px;
+    height: 30px;
 }
-
-
-   
 
 .red-cost {
     color: red;
 }
-
-
 
 .row {
 	display: flex;
