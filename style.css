@@ -85,6 +85,12 @@ figure > img {
 	color: rgb(0, 0, 0);
 }
 
+.square {
+    background-color: white;
+    width: 40px;
+    height: 33px;
+}
+
 .discount {
     position: absolute;
 	top:85%;
@@ -93,6 +99,7 @@ figure > img {
 	text-align: center;
 	font-size: 15px;
 	color: rgb(0, 0, 0);
+    
 }
 
 .rectangle-red {
@@ -100,6 +107,35 @@ figure > img {
     height: 20px;
     background-color: red;
 }
+
+.sustainability {
+    position: absolute;
+	top:85%;
+	right:42%;
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	color: rgb(0, 0, 0);
+    
+}
+
+.rectangle-green {
+    width: 100px;
+    height: 20px;
+    background-color: green;
+}
+
+.sustainability1 {
+    position: absolute;
+	top:85%;
+	
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	color: rgb(0, 0, 0);
+}
+
+
 
 
 
